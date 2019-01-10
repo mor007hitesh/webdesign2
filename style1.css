@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: content-box;
+}
+a{
+	text-decoration: none;
+}
+#mainbody{
+	height: auto;
+	width: 100%;
+	background: #077054;
+	overflow: hidden;
+}
+#wrapper{
+	height: auto;
+	width: 70%;
+	margin-left: 15%;
+}
+header{
+	height: 150px;
+	width: 100%;
+}
+header h1 {
+	font-size: 50px;
+	text-align: center;
+	padding: 30px;
+}
+header h1 a{
+	text-decoration: none;
+	color:#99FA99;
+}
+header h1 a span{
+	color: #B6D8CF;
+	font-size:26px;
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+}
+nav{
+	height: 50px;
+	width: 100%;
+	text-transform:uppercase;
+}
+nav ul{
+	list-style: none;
+	padding-top: 15px;
+	margin-left: 30px;
+}
+nav ul li{
+	float: left;
+	font-size: 24px;
+	width: 200px;
+	height: 30px;
+	background: #077054;
+	text-align: center;
+}
+nav ul li a{
+	color: #B6D8CF;
+}
+nav ul li a:hover{
+	color:#D3A3FF;
+}
+nav ul li ul{
+	list-style:none;
+	display: none;
+}
+nav ul li:hover ul{
+	display: block;
+	position: absolute;
+	margin-left: -1px;
+}
+nav ul li:hover ul li{
+	display: block;
+	text-align:center;
+	line-height: 40px;
+	margin-top: -12px;
+	height: 40px;
+}
+section{
+	height: 800px;
+	width: 100%;
+	background: #ffffff;
+	clear: both;
+}
+.center1{
+	height: 800px;
+	width: 55%;
+	float: left;
+}
+.center2{
+	height: 800px;
+	width: 45%;
+	float: right;
+}
+.center1 h1{
+	font-size: 100px;
+	font-weight: 200;
+	color: #21A51E;
+	padding-top:100px;
+	text-align:center;
+}
+.center1 hr{
+	margin-left: 35%;
+	margin-top: 40px;
+}
+.paragraph{
+	color: #21A51E;
+	font-size: 100px;
+	font-weight: 200;
+	padding-top: 40px;
+	text-align: center;
+}
+.center2 img{
+	padding: 50px;
+}
+footer{
+	height: 150px;
+	width: 100%;
+}
+footer p{
+	color: #99FA99;
+	font-size: 25px;
+	float: left;
+	margin-top: 14px;
+}
+footer hr{
+	margin:18px 10px 0px 10px;
+	float:left;
+}
+.footerline2{
+	color: #B6D8CF;
+	font-size: 14px;
+	clear: both;
+}
+#connect{
+	height: auto;
+	width: auto;
+	float: right;
+	position: absolute;
+	top:1010px;
+	left: 1090px;
+}
+#connect img{
+	padding-left: 18px;
+}

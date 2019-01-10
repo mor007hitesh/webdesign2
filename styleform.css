@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+form{
+	margin-left: 250px;
+}
+form input{
+	height: 45px;
+	width: 450px;
+	border: 0px;
+	background: #D1D3D4;
+	margin-left: 42px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+form textarea{
+	height: 155px;
+	width: 450px;
+	border: 0px;
+	background: #D1D3D4;
+	margin-left: 42px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.send{
+	height: 30px;
+	width: 50px;
+	background: #077054;
+	margin-left: 442px;
+	margin-top: -5px;
+	color: #99FA99;
+	border-radius: 5px;
+}
